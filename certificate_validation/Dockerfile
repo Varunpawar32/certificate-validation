@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copy Maven build jar to the container
-COPY target/certification_validation.jar app.jar
+COPY target/certification_validation-1.0.jar app.jar
 
 # Expose port 8080 (Spring Boot default)
 EXPOSE 8080
