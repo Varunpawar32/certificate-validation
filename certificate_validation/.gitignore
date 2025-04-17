@@ -1,5 +1,8 @@
 HELP.md
-target/
+
+# Ignore target folder - comment this to allow committing JARs inside target/
+# target/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -25,7 +28,10 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
+
+# Ignore build folder - comment if needed to commit built files
+# build/
+
 !**/src/main/**/build/
 !**/src/test/**/build/
 
